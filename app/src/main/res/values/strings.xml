@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">MCShip</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="common_action_close">Close</string>
+    <string name="common_action_save">Save</string>
+
+    <!-- Menu Item -->
+    <string name="menu_item_search">Search</string>
+    <string name="menu_item_about_app">About App</string>
+    <string name="menu_item_help">Help</string>
+    <string name="menu_item_version_app">Version %s</string>
+
+    <!-- Main Screen -->
+    <string name="mainscreen_add_catergory">Add Category</string>
+    <string name="mainscreen_add_note">Add Note</string>
+    <string name="mainscreen_edit_note">Edit Note</string>
+    <string name="mainscreen_empty_note">Your note list is empty, let start to create your first note now</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Note detail screen -->
+    <string name="note_detail_share">Share</string>
+    <string name="note_detail_delete">Delete</string>
+    <string name="note_detail_category">Category</string>
+    <string name="note_detail_note_detail">Detail</string>
+    <string name="note_detail_other_information">Other Information</string>
+    <string name="note_detail_map_location">Map Location</string>
+    <string name="note_detail_note_name_hint">Name</string>
+    <string name="note_detail_note_detail_hint">Description</string>
+    <string name="note_detail_add_note_hint">Your Note (Can Add Later)</string>
+    <string name="note_detail_address_hint">Address</string>
+    <string name="help">Một sản phẩm hoàn toàn miễn phí \n S - TEAM</string>
+    <string name="contact">Nếu có bất cứ vấn đề gì trong quá trình sử dụng vui lòng liên hệ hotline </string>
+    <string name="title_activity_screen">ScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

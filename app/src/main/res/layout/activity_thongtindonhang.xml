@@ -1,0 +1,285 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="THÔNG TIN ĐƠN HÀNG " />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:padding="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="5dp"
+                            android:text="Tên Khách Hàng : " />
+
+                        <TextView
+                            android:id="@+id/hoten"
+                            android:layout_width="match_parent"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:textSize="16dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="0 min" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:padding="5dp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="5dp"
+                            android:textSize="16dp"
+                            android:textColor="#000"
+                            android:text="Số Điện Thoại KH : " />
+
+                        <TextView
+                            android:id="@+id/sdt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:textAlignment="center"
+                            android:textSize="16dp"
+                            android:textColor="#000"
+                            android:text="0 min" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:padding="5dp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="Tên Máy : " />
+
+                        <TextView
+                            android:id="@+id/tenmay"
+                            android:layout_width="match_parent"
+                            android:textSize="16dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="#000"
+                            android:layout_marginLeft="5dp"
+                            android:text="0 min" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:padding="5dp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="Số Tiền : " />
+
+                        <TextView
+                            android:id="@+id/sotien"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="16dp"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:text="0 min" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:textColor="#000"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginLeft="5dp"
+                            android:text="Địa Chỉ : " />
+
+                        <TextView
+                            android:id="@+id/diachi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:textSize="16dp"
+                            android:layout_marginLeft="5dp"
+                            android:text="0 min" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:padding="5dp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:textStyle="bold"
+                            android:layout_height="match_parent"
+                            android:textColor="#000"
+                            android:textSize="16dp"
+                            android:layout_marginLeft="5dp"
+                            android:text="Ghi Chú : " />
+
+                        <TextView
+                            android:id="@+id/ghichu"
+                            android:layout_width="match_parent"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:textSize="16dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="0 min" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000"
+                            android:textSize="16dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="15dp"
+                            android:textStyle="bold"
+                            android:text="Nhập Mã Vận Đơn : " />
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:orientation="horizontal"
+                          android:layout_height="match_parent"
+                          tools:ignore="Orientation">
+
+                          <EditText
+                              android:id="@+id/mvd"
+                              android:layout_width="match_parent"
+                              android:textAlignment="center"
+                              android:layout_height="50dp"
+                              tools:ignore="RtlCompat" />
+
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:textColor="#000"
+                              android:textSize="18dp"
+                              android:textAlignment="center"
+                              android:text="test"
+                              android:id="@+id/mavd"
+                              android:layout_marginLeft="8dp"
+                              android:textStyle="bold" />
+                      </LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/tinhtrang"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
